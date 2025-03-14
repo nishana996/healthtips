@@ -1,0 +1,68 @@
+.health-tips-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #bfdbfe, #ffffff);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.health-tips-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #064935;
+  margin-bottom: 2.5rem;
+  
+}
+
+/* Ensures 4 cards per row */
+.health-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 Cards per row */
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1200px; /* Adjust for proper spacing */
+}
+
+.health-tip-card {
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 220px; /* Increased width */
+  height: 240px; /* Increased height */
+}
+
+.health-tip-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.health-tip-icon {
+  font-size: 2.5rem;
+  color: #059669;
+  margin-bottom: 0.8rem;
+}
+
+.health-tip-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #065f46;
+  margin-bottom: 0.5rem;
+}
+
+.health-tip-description {
+  font-size: 0.85rem;
+  color: black;
+  text-align: center;
+}
+
+
+  
